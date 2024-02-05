@@ -60,7 +60,8 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
+db.jet_bridge_store.sqlite3
+jet_bridge_store.sqlite3
 # Flask stuff:
 instance/
 .webassets-cache
