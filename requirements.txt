@@ -6,8 +6,9 @@ charset-normalizer==3.3.2
 cryptography==42.0.2
 dateparser==1.2.0
 defusedxml==0.8.0rc2
-Django==5.0.1
+Django==3.2.12
 django-jet==1.0.8
+djangorestframework==3.14.0
 graphene==2.1.9
 graphql-core==2.3.2
 graphql-relay==2.0.1
