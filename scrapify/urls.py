@@ -16,6 +16,7 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
+    path('api/', include('sites.urls')),
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='swagger-ui'),
     re_path(r'^jet/', include('jet.urls', 'jet')),
     path('admin/', admin.site.urls),
