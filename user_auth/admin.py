@@ -6,3 +6,4 @@ UserModel = get_user_model()
 
 # Register your models here.
 admin.site.register(UserModel)
+admin.site.register(CustomUser)
